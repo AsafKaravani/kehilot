@@ -25,6 +25,7 @@ export const LocationChangeCard = (props: LocationChangeCardProps) => {
 	return (
 		<div className="shadow p-4 rounded-lg flex flex-col w-full">
 			<div className="font-bold text-lg">{props.amount} תושבים</div>
+			גילי
 			<div className="flex gap-6 items-center">
 				<LocationSection {...props.location1} />
 				<i className="fas fa-arrow-alt-right mb-8"></i>
